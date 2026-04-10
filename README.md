@@ -4,15 +4,11 @@
 
 This project implements an unsupervised learning framework to detect financial shocks and segment transaction behavior into risk profiles. It combines anomaly detection, clustering, and a composite Financial Stress Index (FSI) for risk assessment.
 
----
-
 ## Files Included
 
 * `Financial_Shock_Detection.ipynb` — Complete implementation (EDA, feature engineering, modeling, evaluation)
 * `paysim_sample.csv` — Dataset used for analysis
 * `Report.pdf` — Detailed project report (methodology, results, discussion)
-
----
 
 ## Methodology (Summary)
 
@@ -32,16 +28,12 @@ This project implements an unsupervised learning framework to detect financial s
 
   * Financial Stress Index (FSI) for transaction-level risk
 
----
-
 ## Key Results
 
 * High-risk cluster shows near-total anomaly concentration
 * FSI strongly correlates with key risk indicators
 * Isolation Forest and DBSCAN capture complementary anomalies
 * Clustering effectively segments behavioral patterns
-
----
 
 ## How to Run
 
@@ -53,7 +45,6 @@ This project implements an unsupervised learning framework to detect financial s
 
 3. Run all cells sequentially
 
----
 
 ## Author
 
